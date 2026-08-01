@@ -1,0 +1,1178 @@
+-- [[ deobfuscated @ dsc.gg/6vms ]]
+local Env = getfenv();
+local s = {};
+local v1 = {...};
+local r1 = true;
+local r2 = string.gmatch;
+local function r3(...)
+    error("Tamper Detected!");
+    return; 
+end;
+local r4 = false;
+local v2 = pcall(function(...)
+    r4 = true;
+    return; 
+end) and r4;
+local r5 = math.random;
+local v3 = table.concat;
+local v4 = table;
+local function v5(...)
+    while true do
+        l1 = l2;
+        l2 = l1;
+        r3(); 
+    end;
+    return; 
+end;
+if v4 then
+    c = table.unpack;
+end;
+local r6 = v4 or unpack;
+local r7 = r5(3, 65);
+local v6 = {
+    pcall(function(...)
+        return "ji2UD0TRa" / (14756225 - "2tYayC5AdMs" ^ 8670401); 
+    end)
+};
+local v7 = v6[2];
+local r8 = tonumber(r2(tostring(v7), ":(%d*):")());
+for B = 1, r7 do
+    r9 = B;
+    r10 = math.random(1, 100);
+    r11 = r5(0, 255);
+    r12 = r5(1, r10);
+    r13 = r5(1, 2) == 1;
+    r14 = v7.gsub(v7, ":(%d*):", ":" .. tostring(r5(0, 10000)) .. ":");
+    X = {
+        pcall(function(...)
+            if r5(1, 2) == 1 or r9 == r7 then
+                r1 = r1 and r8 == tonumber(r2(tostring(({
+                    pcall(function(...)
+                        return "o11" / (13563559 - "BYB6uJA9" ^ 12660549); 
+                    end)
+                })[2]), ":(%d*):")());
+            end;
+            if r13 then
+                error(r14, 0);
+            end;
+            v1 = {};
+            for Q = 1, r10 do
+                v1[Q] = r5(0, 255); 
+            end;
+            v1[r12] = r11;
+            return r6(v1); 
+        end)
+    };
+    if r13 then
+        r1 = r1 and (pcall(function(...)
+            if r5(1, 2) == 1 or r9 == r7 then
+                r1 = r1 and r8 == tonumber(r2(tostring(({
+                    pcall(function(...)
+                        return "o11" / (13563559 - "BYB6uJA9" ^ 12660549); 
+                    end)
+                })[2]), ":(%d*):")());
+            end;
+            if r13 then
+                error(r14, 0);
+            end;
+            v1 = {};
+            for Q = 1, r10 do
+                v1[Q] = r5(0, 255); 
+            end;
+            v1[r12] = r11;
+            return r6(v1); 
+        end) == false and X[2] == r14);
+    end; 
+end;
+r1 = r1 and 0 == 0;
+if r1 then
+    r17 = math.floor;
+    v6 = {};
+    r18 = 0;
+    r19 = 2;
+    r20 = {};
+    v4 = 0;
+    for n = 1, 256 do
+        v6[n] = n; 
+    end;
+    v7 = #v6 == 0;
+    n = table.remove(v6, math.random(1, #v6));
+    r20[n] = string.char(n - 1);
+    if #v6 == 0 then
+        r21 = {};
+        r23 = {};
+        r16 = setmetatable({}, {
+            ["__index"] = r23,
+            ["__metatable"] = nil
+        });
+        Q = "https://raw.githubusercontent.com/deividcomsono/Obsidian/main/";
+        J = game;
+        r24 = loadstring(J.HttpGet(J, Q .. "Library.lua"))();
+        v5 = game;
+        i = loadstring(v5.HttpGet(v5, Q .. "addons/ThemeManager.lua"))();
+        c = game;
+        J = loadstring(c.HttpGet(c, Q .. "addons/SaveManager.lua"))();
+        r25 = r24.Options;
+        v5 = r24.Toggles;
+        r24.ForceCheckbox = false;
+        r24.ShowToggleFrameInKeybinds = true;
+        I = r24;
+        v4 = I.CreateWindow(I, {
+            ["Title"] = "InoC3nt8 Hub",
+            ["Footer"] = "v1.0",
+            ["Icon"] = 6942501524,
+            ["NotifySide"] = "Right",
+            ["ShowCustomCursor"] = true
+        });
+        I = {
+            ["Main"] = v4.AddTab(v4, "Main", "house"),
+            ["Misc"] = v4.AddTab(v4, "Misc", "zap"),
+            ["Settings"] = v4.AddTab(v4, "Settings", "settings")
+        };
+        r = I.Main;
+        v6 = r.AddLeftGroupbox(r, "Combat Features");
+        r = I.Main;
+        v7 = r.AddLeftGroupbox(r, "Player Features");
+        r = I.Main;
+        n = r.AddRightGroupbox(r, "Visual Features");
+        r26 = false;
+        v6.AddToggle(v6, "InfAmmoToggle", {
+            ["Text"] = "Infinite Ammo",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_2, ...)
+                v1 = arg1_2;
+                v3 = v1;
+                r26 = v3;
+                v3 = v3;
+                if r26 and not r27 then
+                    r27 = task.spawn(function(...)
+                        while r26 do
+                            pcall(function(...)
+                                v1 = game;
+                                i = "a\xe3\xa0N\xa1\xf3\xf0\x1ah";
+                                v1 = v1.GetService(v1, "Players").LocalPlayer[r16[r15(i, 17550964580332)]];
+                                if v1 then
+                                    i = "primary";
+                                    Z = i[2];
+                                    for Q, v2 in ipairs(i[1]) do
+                                        i = Q;
+                                        J = v1.FindFirstChild(v1, v2);
+                                        if J then
+                                            v5 = J.FindFirstChild(J, "ClientEvents");
+                                        end;
+                                        if J then
+                                            firesignal(J.ClientEvents.SetLocalAmmo.OnClientEvent, J, math.huge, false);
+                                        end; 
+                                    end;
+                                end;
+                                return; 
+                            end);
+                            task.wait(0.5); 
+                        end;
+                        return; 
+                    end);
+                end;
+                print("Infinite Ammo:", v1);
+                return; 
+            end
+        });
+        r28 = false;
+        v6.AddToggle(v6, "PrimaryGunHitToggle", {
+            ["Text"] = "Primary Gun AutoHit",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_3, ...)
+                r28 = arg1_3;
+                if r28 then
+                    while r28 do
+                        v2 = workspace.Game.Spawned.Ragdolls;
+                        i = {
+                            v2,
+                            workspace.Game.Current.Spawned.NPCs.enemies,
+                            workspace.Game.Current.Scene.Map.Corpses
+                        };
+                        Q = v2[2];
+                        j = v2[3];
+                        for j, v2 in ipairs(i) do
+                            i = j;
+                            r29 = v2;
+                            pcall(function(...)
+                                Q = r29;
+                                v1 = Q[2];
+                                Z = Q[3];
+                                Q = "ipairs";
+                                for Z, i in ipairs(Q.GetChildren(Q)) do
+                                    j = Z;
+                                    if i.FindFirstChild(i, "Humanoid") and i.Humanoid.Health > 0 then
+                                        I = game;
+                                        v2 = I.GetService(I, "Players").LocalPlayer.Character.primary.ServerEvents.RegisterHit;
+                                        v2.FireServer(v2, {
+                                            {
+                                                ["amount"] = 1,
+                                                ["target"] = i,
+                                                ["is_friendly"] = false,
+                                                ["part"] = i.Head
+                                            }
+                                        }, {});
+                                    end; 
+                                end;
+                                return; 
+                            end); 
+                        end;
+                        wait(.2); 
+                    end;
+                end;
+                return; 
+            end
+        });
+        r30 = false;
+        v6.AddToggle(v6, "SecondaryGunHitToggle", {
+            ["Text"] = "Secondary Gun AutoHit",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_4, ...)
+                r30 = arg1_4;
+                if r30 then
+                    while r30 do
+                        v2 = workspace.Game.Spawned.Ragdolls;
+                        j = v2[3];
+                        for j, v2 in v2[1], ipairs({
+                            v2,
+                            workspace.Game.Current.Spawned.NPCs.enemies,
+                            workspace.Game.Current.Scene.Map.Corpses
+                        }) do
+                            i = j;
+                            r31 = v2;
+                            pcall(function(...)
+                                Q = r31;
+                                Z = Q[3];
+                                v1 = Q[2];
+                                Q = "ipairs";
+                                for Z, i in ipairs(Q.GetChildren(Q)) do
+                                    j = Z;
+                                    if i.FindFirstChild(i, "Humanoid") and i.Humanoid.Health > 0 then
+                                        I = game;
+                                        v2 = I.GetService(I, "Players").LocalPlayer.Character.secondary.ServerEvents.RegisterHit;
+                                        v2.FireServer(v2, {
+                                            {
+                                                ["amount"] = 1,
+                                                ["target"] = i,
+                                                ["is_friendly"] = false,
+                                                ["part"] = i.Head
+                                            }
+                                        }, {});
+                                    end; 
+                                end;
+                                return; 
+                            end); 
+                        end;
+                        wait(.2); 
+                    end;
+                end;
+                return; 
+            end
+        });
+        v6.AddToggle(v6, "MeleeHitToggle", {
+            ["Text"] = "Melee AutoHit",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_5, ...)
+                r30 = arg1_5;
+                if r30 then
+                    while r30 do
+                        v2 = workspace.Game.Spawned.Ragdolls;
+                        j = v2[3];
+                        Q = v2[2];
+                        for j, v2 in ipairs({
+                            v2,
+                            workspace.Game.Current.Spawned.NPCs.enemies,
+                            workspace.Game.Current.Scene.Map.Corpses
+                        }) do
+                            i = j;
+                            r32 = v2;
+                            pcall(function(...)
+                                Q = r32;
+                                Z = Q[3];
+                                v1 = Q[2];
+                                Q = "ipairs";
+                                for Z, i in ipairs(Q.GetChildren(Q)) do
+                                    j = Z;
+                                    if i.FindFirstChild(i, "Humanoid") and i.Humanoid.Health > 0 then
+                                        I = game;
+                                        v2 = I.GetService(I, "Players").LocalPlayer.Character.melee.ServerEvents.RegisterHit;
+                                        v2.FireServer(v2, {
+                                            {
+                                                ["amount"] = 1,
+                                                ["target"] = i,
+                                                ["is_friendly"] = false,
+                                                ["part"] = i.Head
+                                            }
+                                        }, {});
+                                    end; 
+                                end;
+                                return; 
+                            end); 
+                        end;
+                        wait(.2); 
+                    end;
+                end;
+                return; 
+            end
+        });
+        r33 = false;
+        v6.AddToggle(v6, "HitBoxExpanderToggle", {
+            ["Text"] = "HitBox Expander",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_6, ...)
+                v1 = arg1_6;
+                r33 = v1;
+                Z = workspace.Game.Current.Spawned.NPCs.enemies;
+                r35 = Vector3.new(10, 10, 10);
+                r36 = Color3.fromRGB(255, 0, 0);
+                local function r37(arg1_7, ...)
+                    v1 = arg1_7;
+                    if not r33 then
+                        return;
+                    end;
+                    j = not v1.FindFirstChildOfClass(v1, "Humanoid");
+                    z = j;
+                    if j then
+                        if z then
+                            return;
+                        end;
+                        if v1.FindFirstChildOfClass(v1, "Humanoid").Health <= 0 then
+                            return;
+                        end;
+                        Q.Size = r35;
+                        Q.Transparency = 0.5;
+                        Q.Color = r36;
+                        Q.Material = Enum.Material.ForceField;
+                        Q.CanCollide = false;
+                        return;
+                    else
+                        z = not v1.FindFirstChild(v1, "HumanoidRootPart");
+                    end; 
+                end;
+                local function z(arg1_8, ...)
+                    v1 = arg1_8;
+                    Z = v1.FindFirstChild(v1, "HumanoidRootPart");
+                    if Z then
+                        Z.Size = Vector3.new(2, 2, 1);
+                        Z.Transparency = 1;
+                        Z.Material = Enum.Material.Plastic;
+                    end;
+                    return; 
+                end;
+                v2 = z;
+                if v1 then
+                    v4 = Z.GetChildren;
+                    c = v4[3];
+                    v5 = v4[2];
+                    for c, v4 in ipairs(v4(Z)) do
+                        I = c;
+                        r37(v4); 
+                    end;
+                    z = Z.ChildAdded;
+                    r34 = z.Connect(z, function(arg1_9, ...)
+                        task.wait(.2);
+                        r37(arg1_9);
+                        return; 
+                    end);
+                else
+                    if r34 then
+                        z = r34;
+                        z.Disconnect(z);
+                    end;
+                    v6 = Z.GetChildren;
+                    r = {
+                        v6(Z)
+                    };
+                    v4 = v6[3];
+                    for v4, r in v6[1], ipairs(V(r)) do
+                        z(r);
+                        v5 = v4; 
+                    end;
+                    return;
+                end; 
+            end
+        });
+        v6.AddLabel(v6, "Fixed Features And New Features");
+        r = game;
+        r38 = r.GetService(r, "Players");
+        r39 = r38.LocalPlayer;
+        r40 = false;
+        local function r41(arg1_10, ...)
+            v1 = arg1_10;
+            if v1 == r39 then
+                return;
+            end;
+            Z = v1.Character;
+            z = Z;
+            if Z then
+                z = not Z.FindFirstChild(Z, "PlayerESP");
+            end;
+            if z then
+                Q = Instance.new("Highlight");
+                Q.Name = "PlayerESP";
+                Q.FillColor = Color3.fromRGB(0, 255, 0);
+                Q.OutlineColor = Color3.fromRGB(0, 255, 0);
+                Q.FillTransparency = 0.5;
+                Q.OutlineTransparency = 0;
+                z = "Parent";
+                Q.Parent = z;
+            end;
+            return; 
+        end;
+        local function r42(arg1_11, ...)
+            v1 = arg1_11;
+            v3 = v1.Character;
+            if v3 then
+                v3 = v1.Character;
+                Z = v3.FindFirstChild(v3, "PlayerESP");
+                if Z then
+                    Z.Destroy(Z);
+                end;
+            end;
+            return; 
+        end;
+        local function r43(...)
+            Q = r38;
+            v1 = Q[2];
+            Z = Q[3];
+            Q = "ipairs";
+            for Z, i in ipairs(Q.GetPlayers(Q)) do
+                j = Z;
+                if r40 then
+                    r41(i);
+                else
+                    r42(i);
+                end; 
+            end;
+            return; 
+        end;
+        v = r38.PlayerAdded;
+        v.Connect(v, function(arg1_12, ...)
+            r44 = arg1_12;
+            v3 = r44.CharacterAdded;
+            v3.Connect(v3, function(...)
+                task.wait(1);
+                if r40 then
+                    r41(r44);
+                end;
+                return; 
+            end);
+            return; 
+        end);
+        n.AddToggle(n, "PlayerESPToggle", {
+            ["Text"] = "Player ESP",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_13, ...)
+                r40 = arg1_13;
+                r43();
+                return; 
+            end
+        });
+        v = r38.PlayerAdded;
+        v.Connect(v, function(arg1_14, ...)
+            if r40 then
+                CreateESP(arg1_14);
+            end;
+            return; 
+        end);
+        r45 = workspace.Game.Current.Spawned.NPCs.enemies;
+        r46 = false;
+        r47 = {};
+        local function r48(arg1_15, ...)
+            v1 = arg1_15;
+            Z = v1.FindFirstChildOfClass(v1, "Humanoid");
+            if Z then
+                z = Z.Health > 0;
+            end;
+            return Z; 
+        end;
+        local function r49(arg1_16, ...)
+            v1 = arg1_16;
+            if r47[v1] then
+                return;
+            end;
+           Z = Instance.new("Highlight")
+           Z.Name = "ZombieESP"
+           Z.FillColor = Color3.fromRGB(150, 0, 0)
+           Z.OutlineColor = Color3.fromRGB(150, 0, 0)
+           Z.FillTransparency = 0.6
+           Z.OutlineTransparency = 0.3
+           Z.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+           Z.Parent = v1
+           r47[v1] = Z
+           return
+
+        end;
+        local function r50(arg1_17, ...)
+            v1 = arg1_17;
+            if r47[v1] then
+                v3 = r47[v1];
+                v3.Destroy(v3);
+                r47[v1] = nil;
+            end;
+            return; 
+        end;
+        local function r51(...)
+            Q = r45;
+            v1 = Q[2];
+            Q = Q[1];
+            for Z, i in ipairs(Q.GetChildren(Q)) do
+                j = Z;
+                J = r16;
+                if i.IsA(i, "Model") then
+                    J = r46;
+                    if J then
+                        v2 = r48(i);
+                    end;
+                    if J then
+                        r49(i);
+                    else
+                        r50(i);
+                    end;
+                end; 
+            end;
+            return; 
+        end;
+        AW = r45.ChildAdded;
+        AW.Connect(AW, function(arg1_18, ...)
+            v1 = arg1_18;
+            task.wait(.2);
+            r51();
+            return; 
+        end);
+        task.spawn(function(...)
+            while task.wait(1) do
+                r51(); 
+            end;
+            return; 
+        end);
+        n.AddToggle(n, "ZombieESPToggle", {
+            ["Text"] = "Zombie ESP",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_19, ...)
+                v1 = arg1_19;
+                r46 = v1;
+                r51();
+                if not v1 then
+                    Q = 31[2];
+                    Z = 31[1];
+                    for j, v2 in pairs(r47) do
+                        v2.Destroy(v2);
+                        r47[j] = nil; 
+                    end;
+                end;
+                return; 
+            end
+        });
+        r52 = false;
+        n.AddToggle(n, "ObjectiveESPToggle", {
+            ["Text"] = "Objective ESP",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_20, ...)
+                r52 = arg1_20;
+                return; 
+            end
+        });
+        r53 = workspace.Game.Current.Spawned.GameObjects;
+        r54 = {
+            ["objective_radio"] = true,
+            ["objective_card_reader"] = true,
+            ["objective_fusebox"] = true,
+            ["mission_item"] = true,
+            ["objective_c4"] = true
+        };
+        AW = game;
+        r55 = workspace.CurrentCamera;
+        r56 = {};
+        local function r57(...)
+            v1 = Drawing.new("Line");
+            v1.Color = Color3.fromRGB(255, 255, 255);
+            v1.Thickness = 2;
+            v1.Visible = false;
+            return v1; 
+        end;
+        jW = AW.GetService(AW, "RunService").RenderStepped;
+        jW.Connect(jW, function(...)
+            Q = r56;
+            Z = 1[3];
+            Q = 1[1];
+            for Z, i in Q, pairs(Q) do
+                i.Visible = false; 
+            end;
+            if not r52 then
+                return;
+            end;
+            i = r53;
+            v2 = {
+                i.GetChildren(i)
+            };
+            Q = i[2];
+            j = i[3];
+            for j, v2 in ipairs(V(v2)) do
+                i = j;
+                v5 = v2.Name;
+                if r54[v5] then
+                    v5 = v2.IsA(v2, "BasePart");
+                    J = v5 and v2;
+                    v3 = J[v5];
+                    if v5 then
+                        if v5 and v2 then
+                            0 = 0 + 1;
+                            if not r56[v1] then
+                                r56[v1] = r57();
+                            end;
+                            v5 = r55;
+                            r = {
+                                v5.WorldToViewportPoint(v5, (v5 and v2).Position)
+                            };
+                            c = v5.WorldToViewportPoint(v5, (v5 and v2).Position);
+                            if r[2] then
+                                r56[v1].From = Vector2.new(r55.ViewportSize.X / 2, r55.ViewportSize.Y);
+                                r56[v1].To = Vector2.new(c.X, c.Y);
+                                r56[v1].Visible = true;
+                            end;
+                        end;
+                    else
+                        J = v2.FindFirstChildWhichIsA(v2, "BasePart");
+                    end;
+                end; 
+            end;
+            return; 
+        end);
+        r58 = workspace.Game.Current.Spawned.GameObjects;
+        r59 = {};
+        local function r60(...)
+            Q = r58;
+            Z = Q[3];
+            Q = Q[1];
+            for Z, i in Q, ipairs(Q.GetChildren(Q)) do
+                j = Z;
+                c = r15;
+                if i.Name == "pickup_ammo" then
+                    c = i.IsA(i, "Model");
+                    if c then
+                        J = i;
+                    end;
+                    v3 = v2 == J;
+                    v2 = c or i.Parent;
+                    if not r59[i] then
+                        J = Instance.new("Highlight");
+                        J.Name = "AmmoESP";
+                        J.FillColor = Color3.fromRGB(120, 70, 20);
+                        J.OutlineColor = Color3.fromRGB(255, 255, 255);
+                        J.FillTransparency = .35;
+                        J.OutlineTransparency = 0;
+                        J.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
+                        v5 = c or i.Parent;
+                        J.Adornee = v5;
+                        J.Parent = v2;
+                        r59[i] = J;
+                    end;
+                end; 
+            end;
+            return; 
+        end;
+        local function r61(...)
+            Q = r59;
+            Z = 1[3];
+            v1 = 1[2];
+            for Z, i in pairs(z) do
+                if i then
+                    i.Destroy(i);
+                end; 
+            end;
+            table.clear(r59);
+            return; 
+        end;
+        n.AddToggle(n, "AmmoESPToggle", {
+            ["Text"] = "Ammo ESP",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_21, ...)
+                if arg1_21 then
+                    r60();
+                else
+                    r61();
+                end;
+                return; 
+            end
+        });
+        r62 = workspace.Game.Current.Spawned.GameObjects;
+        r63 = {};
+        local function r64(...)
+            Q = r62;
+            v1 = Q[2];
+            Q = Q[1];
+            for Z, i in ipairs(Q.GetChildren(Q)) do
+                j = Z;
+                J = "pickup_armor";
+                if i.Name == J then
+                    J = i.IsA(i, "Model");
+                    v2 = J and i;
+                    v3 = v2 == J;
+                    if J then
+                        if not r63[i] then
+                            J = Instance.new("Highlight");
+                            J.Name = "ArmorESP";
+                            J.FillColor = Color3.fromRGB(0, 120, 255);
+                            J.OutlineColor = Color3.fromRGB(255, 255, 255);
+                            J.FillTransparency = .35;
+                            J.OutlineTransparency = 0;
+                            J.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
+                            v5 = J and i;
+                            J.Adornee = v5;
+                            J.Parent = v2;
+                            r63[i] = J;
+                        end;
+                    else
+                        v2 = i.Parent;
+                    end;
+                end; 
+            end;
+            return; 
+        end;
+        local function r65(...)
+            Q = r63;
+            Z = 1[3];
+            Q = 1[1];
+            for Z, i in Q, pairs(Q) do
+                if i then
+                    i.Destroy(i);
+                end; 
+            end;
+            table.clear(r63);
+            return; 
+        end;
+        n.AddToggle(n, "ArmorESPToggle", {
+            ["Text"] = "Armor ESP",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_22, ...)
+                if arg1_22 then
+                    r64();
+                else
+                    r65();
+                end;
+                return; 
+            end
+        });
+        r66 = workspace.Game.Current.Spawned.GameObjects;
+        r67 = {};
+        local function r68(...)
+            Q = r66;
+            Z = Q[3];
+            Q = Q[1];
+            for Z, i in Q, ipairs(Q.GetChildren(Q)) do
+                j = Z;
+                c = r15;
+                if i.Name == "pickup_medkit" then
+                    c = i.IsA(i, "Model");
+                    if c then
+                        J = i;
+                    end;
+                    v3 = v2 == J;
+                    v2 = c or i.Parent;
+                    if not r67[i] then
+                        J = Instance.new("Highlight");
+                        J.Name = "MedkitESP";
+                        v5 = c or i.Parent;
+                        J.Adornee = v5;
+                        J.FillColor = Color3.fromRGB(255, 105, 180);
+                        J.OutlineColor = Color3.new(1, 1, 1);
+                        J.FillTransparency = .35;
+                        J.OutlineTransparency = 0;
+                        J.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
+                        J.Parent = v2;
+                        r67[i] = J;
+                    end;
+                end; 
+            end;
+            return; 
+        end;
+        local function r69(...)
+            Q = r67;
+            Z = 1[3];
+            Q = 1[1];
+            for Z, i in Q, pairs(Q) do
+                if i then
+                    i.Destroy(i);
+                end; 
+            end;
+            table.clear(r67);
+            return; 
+        end;
+        n.AddToggle(n, "MedkitESPToggle", {
+            ["Text"] = "Medkit ESP",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_23, ...)
+                if arg1_23 then
+                    r68();
+                else
+                    r69();
+                end;
+                return; 
+            end
+        });
+        r70 = workspace.Game.Current.Spawned.GameObjects;
+        r71 = {};
+        local function r72(...)
+            Q = r70;
+            Z = Q[3];
+            Q = Q[1];
+            for Z, i in Q, ipairs(Q.GetChildren(Q)) do
+                j = Z;
+                J = "pickup_money";
+                if i.Name == J then
+                    J = i.IsA(i, "Model");
+                    v2 = J and i;
+                    v3 = v2 == J;
+                    if J then
+                        if not r71[i] then
+                            J = Instance.new("Highlight");
+                            J.Name = "MoneyESP";
+                            v5 = J and i;
+                            J.Adornee = v5;
+                            J.FillColor = Color3.fromRGB(255, 215, 0);
+                            J.OutlineColor = Color3.fromRGB(255, 255, 255);
+                            J.FillTransparency = .35;
+                            J.OutlineTransparency = 0;
+                            J.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop;
+                            J.Parent = v2;
+                            r71[i] = J;
+                        end;
+                    else
+                        v2 = i.Parent;
+                    end;
+                end; 
+            end;
+            return; 
+        end;
+        local function r73(...)
+            Q = r71;
+            v1 = 1[2];
+            Q = 1[1];
+            for Z, i in pairs(Q) do
+                if i then
+                    i.Destroy(i);
+                end; 
+            end;
+            table.clear(r71);
+            return; 
+        end;
+        n.AddToggle(n, "MoneyESPToggle", {
+            ["Text"] = "Money ESP",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_24, ...)
+                if arg1_24 then
+                    r72();
+                else
+                    r73();
+                end;
+                return; 
+            end
+        });
+        n.AddLabel(n, "Dev By InoC3nt8");
+        v7.AddSlider(v7, "HipHeightSlider", {
+            ["Text"] = "Height",
+            ["Default"] = 16,
+            ["Min"] = 1,
+            ["Max"] = 30,
+            ["Rounding"] = 0,
+            ["Callback"] = function(arg1_25, ...)
+                r74 = arg1_25;
+                v3 = game;
+                r75 = v3.GetService(v3, "Players").LocalPlayer;
+                local function r76(...)
+                    v1 = r75.Character;
+                    if not v1 then
+                        return;
+                    end;
+                    Z = v1.FindFirstChildWhichIsA(v1, "Humanoid");
+                    if Z then
+                        Z.HipHeight = r74;
+                    end;
+                    return; 
+                end;
+                r76();
+                v3 = r75.CharacterAdded;
+                v3.Once(v3, function(...)
+                    task.wait(1);
+                    r76();
+                    return; 
+                end);
+                return; 
+            end
+        });
+        cW = game;
+        cW = game;
+        r77 = cW.GetService(cW, "RunService");
+        r78 = cW.GetService(cW, "Players").LocalPlayer;
+        local function r80(arg1_26, ...)
+            if arg1_26 then
+                v3 = r79;
+                if v3 then
+                    v3 = r79;
+                    v3.Disconnect(v3);
+                end;
+                v3 = r77.Stepped;
+                r79 = v3.Connect(v3, function(...)
+                    v1 = r78.Character;
+                    if not v1 then
+                        return;
+                    end;
+                    i = v1.GetDescendants;
+                    j = {
+                        i(v1)
+                    };
+                    Z = i[2];
+                    j = i[1];
+                    for Q, v2 in ipairs(V(j)) do
+                        i = Q;
+                        if v2.IsA(v2, "BasePart") then
+                            v2.CanCollide = false;
+                        end; 
+                    end;
+                    return; 
+                end);
+            else
+                if r79 then
+                    v3 = r79;
+                    v3.Disconnect(v3);
+                end;
+                v5 = "%\xbca?\xc6\xb1\xbb\x1a/";
+                Z = r78[r16[r15(v5, 15996920421657)]];
+                if Z then
+                    v5 = Z.GetDescendants;
+                    J = {
+                        v5(Z)
+                    };
+                    i = v5[2];
+                    j = v5[1];
+                    for v2, J in ipairs(V(J)) do
+                        Q = v2;
+                        if J.IsA(J, "BasePart") then
+                            J.CanCollide = true;
+                        end; 
+                    end;
+                end;
+                return;
+            end; 
+        end;
+        v7.AddToggle(v7, "NoClipToggle", {
+            ["Text"] = "No Clip",
+            ["Default"] = false,
+            ["Callback"] = function(arg1_27, ...)
+                r80(arg1_27);
+                return; 
+            end
+        });
+        uW = r78.CharacterAdded;
+        uW.Connect(uW, function(...)
+            task.wait(1);
+            if r25.NoClipToggle.Value then
+                r80(true);
+            end;
+            return; 
+        end);
+        uW = I.Misc;
+        BW = uW.AddLeftGroupbox(uW, "FPS Features");
+        uW = game;
+        r81 = uW.GetService(uW, "Lighting");
+        r82 = {
+            ["Brightness"] = r81.Brightness,
+            ["ClockTime"] = r81.ClockTime,
+            ["FogEnd"] = r81.FogEnd,
+            ["GlobalShadows"] = r81.GlobalShadows,
+            ["Ambient"] = r81.Ambient,
+            ["OutdoorAmbient"] = r81.OutdoorAmbient
+        };
+        r83 = false;
+        BW.AddButton(BW, {
+            ["Text"] = "Full Bright",
+            ["Func"] = function(...)
+                r83 = not r83;
+                if r83 then
+                    r81.Brightness = 5;
+                    r81.ClockTime = 12;
+                    r81.FogEnd = 100000;
+                    r81.GlobalShadows = false;
+                    r81.Ambient = Color3.new(1, 1, 1);
+                    r81.OutdoorAmbient = Color3.new(1, 1, 1);
+                else
+                    r81.Brightness = r82.Brightness;
+                    r81.ClockTime = r82.ClockTime;
+                    r81.FogEnd = r82.FogEnd;
+                    r81.GlobalShadows = r82.GlobalShadows;
+                    r81.Ambient = r82.Ambient;
+                    r81.OutdoorAmbient = r82.OutdoorAmbient;
+                end;
+                return; 
+            end
+        });
+        BW.AddButton(BW, {
+            ["Text"] = "FPS Booster",
+            ["Func"] = function(...)
+                pcall(function(...)
+                    if setfpscap then
+                        setfpscap(0);
+                    else
+                        if set_fps_cap then
+                            set_fps_cap(0);
+                        end;
+                        return;
+                    end; 
+                end);
+                pcall(function(...)
+                    settings().Rendering.QualityLevel = Enum.QualityLevel.Level01;
+                    return; 
+                end);
+                Q = game;
+                v1 = Q[2];
+                Q = Q[1];
+                for Z, i in ipairs(Q.GetDescendants(Q)) do
+                    j = Z;
+                    if i.IsA(i, "ParticleEmitter") or (i.IsA(i, "Trail") or (i.IsA(i, "Smoke") or (i.IsA(i, "Fire") or i.IsA(i, "Sparkles")))) then
+                        i.Enabled = false;
+                    else
+                        if i.IsA(i, "Explosion") then
+                            i.Visible = false;
+                        else
+                            if i.IsA(i, "BlurEffect") or (i.IsA(i, "BloomEffect") or (i.IsA(i, "SunRaysEffect") or (i.IsA(i, "ColorCorrectionEffect") or i.IsA(i, "DepthOfFieldEffect")))) then
+                                i.Enabled = false;
+                            end;
+                        end;
+                    end; 
+                end;
+                print("FPS Booster Enabled");
+                return; 
+            end
+        });
+        BW.AddButton(BW, {
+            ["Text"] = "FPS Cap",
+            ["Func"] = function(...)
+                if setfpscap then
+                    setfpscap(0);
+                else
+                    if set_fps_cap then
+                        set_fps_cap(0);
+                        print("FPS Cap set to Unlimited!");
+                        return;
+                    end;
+                    warn("Your executor does not support FPS cap.");
+                    return;
+                end; 
+            end
+        });
+        HW = game;
+        r84 = HW.GetService(HW, "TeleportService");
+        TW = game;
+        r85 = TW.GetService(TW, "Players");
+        BW.AddButton(BW, {
+            ["Text"] = "Rejoin Server",
+            ["Func"] = function(...)
+                v3 = r85.LocalPlayer;
+                if v3 then
+                    v3 = r84;
+                    v3.Teleport(v3, game.PlaceId, v3);
+                end;
+                return; 
+            end
+        });
+        RW = game;
+        r86 = RW.GetService(RW, "TeleportService");
+        xW = game;
+        r87 = xW.GetService(xW, "HttpService");
+        eW = game;
+        r88 = eW.GetService(eW, "Players");
+        r89 = 11765763028;
+        r90 = game.JobId;
+        BW.AddButton(BW, {
+            ["Text"] = "Hop Server",
+            ["Func"] = function(...)
+                if not pcall(function(...)
+                    v3 = game;
+                    v1 = "https://games.roblox.com/v1/games/%d/servers/Public?sortOrder=Asc&limit=100";
+                    return v3.HttpGet(v3, v1.format(v1, r89)); 
+                end) then
+                    warn("Failed to fetch server list.");
+                    return;
+                end;
+                v3 = r87;
+                j = {};
+                v5 = "data";
+                J = v3.JSONDecode(v3, Q[2])[v5];
+                v2 = v5[3];
+                J = v5[1];
+                for v2, c in J, ipairs(J) do
+                    v5 = v2;
+                    if c.id ~= r90 and c.playing < c.maxPlayers then
+                        table.insert({}, c.id);
+                    end; 
+                end;
+                if #j == 0 then
+                    warn("No available servers found.");
+                    return;
+                end;
+                v3 = r86;
+                v3.TeleportToPlaceInstance(v3, r89, j[math.random(1, #j)], r88.LocalPlayer);
+                return; 
+            end
+        });
+        XW = I.Settings;
+        lW = XW.AddLeftGroupbox(XW, "UI Settings");
+        lW.AddToggle(lW, "CustomCursor", {
+            ["Text"] = "Custom Cursor",
+            ["Default"] = r24.ShowCustomCursor,
+            ["Callback"] = function(arg1_28, ...)
+                r24.ShowCustomCursor = arg1_28;
+                return; 
+            end
+        });
+        lW.AddDropdown(lW, "NotifySide", {
+            ["Values"] = {
+                "Left",
+                "Right"
+            },
+            ["Default"] = "Right",
+            ["Text"] = "Notification Side",
+            ["Callback"] = function(arg1_29, ...)
+                v3 = r24;
+                v3.SetNotifySide(v3, arg1_29);
+                return; 
+            end
+        });
+        lW.AddButton(lW, {
+            ["Text"] = "Unload Menu",
+            ["Func"] = function(...)
+                v3 = r24;
+                v3.Unload(v3);
+                return; 
+            end
+        });
+        XW = lW.AddLabel(lW, "Menu Keybind");
+        XW.AddKeyPicker(XW, "MenuKeybind", {
+            ["Default"] = "RightShift",
+            ["NoUI"] = true,
+            ["Text"] = "Menu Keybind"
+        });
+        i.SetLibrary(i, r24);
+        J.SetLibrary(J, r24);
+        J.IgnoreThemeSettings(J);
+        J.SetIgnoreIndexes(J, {
+            "MenuKeybind"
+        });
+        i.SetFolder(i, "InoC3nt8Hub");
+        J.SetFolder(J, "InoC3nt8Hub");
+        J.BuildConfigSection(J, I.Settings);
+        i.ApplyToTab(i, I.Settings);
+        r24.ToggleKeybind = r25.MenuKeybind;
+        return;
+    end;
+end;
+return (function(...)
+    while true do
+        l1 = l2;
+        l2 = l1;
+        r3(); 
+    end;
+    return; 
+end)();
